@@ -17,11 +17,13 @@ Start a Github Page following github’s official documentation:
 
 Clone this initialized github repository by opening the project on github and click on “Code” and copy the URL
 
-![Untitled](Learn%20to%20publish%20your%20Notion%20Pages%20to%20your%20website%20fed90fa07b414a2ba37903244bff8e4c/Untitled.png)
+![Untitled](assets/gitclone.png)
+
+[](../blog1/assets/gitclone.png)
 
 Now open VSCode and Press Command + Shift + P and type git Clone now paste the link copied from part 1 of Step 2 as shown below:
 
-![Untitled](Learn%20to%20publish%20your%20Notion%20Pages%20to%20your%20website%20fed90fa07b414a2ba37903244bff8e4c/Untitled%201.png)
+![Untitled](assets/vscodeclone.png)
 
 ## Step 3:
 
@@ -44,11 +46,11 @@ Now to this blog folder, we will be adding our Notion pages and then linking the
 
 Pick a notion page such as shown below and to the top-right click on the three dots and click on “Export”
 
-![Untitled](Learn%20to%20publish%20your%20Notion%20Pages%20to%20your%20website%20fed90fa07b414a2ba37903244bff8e4c/Untitled%202.png)
+![Untitled](assets/notion-export.png)
 
 Once you click on Export, a dialog box like this will appear:
 
-![Untitled](Learn%20to%20publish%20your%20Notion%20Pages%20to%20your%20website%20fed90fa07b414a2ba37903244bff8e4c/Untitled%203.png)
+![Untitled](assets/notion-export-type.png)
 
 Let the option be Markdown & CSV and click Export. Next, save this zipped file to the folder created in Step 3. Note that you will have to unzip (untar) this because Notion by default saves it as a .zip extension. After unzipping, your finally directory structure will look like this:
 
@@ -64,7 +66,7 @@ Let the option be Markdown & CSV and click Export. Next, save this zipped file t
 
 Open the [README.md](http://README.md) file on VSCode and type the text as shown below:
 
-![Untitled](Learn%20to%20publish%20your%20Notion%20Pages%20to%20your%20website%20fed90fa07b414a2ba37903244bff8e4c/Untitled%204.png)
+![Untitled](asset/vscodecommit.png)
 
 The square brackets are important because only then can you add a link. After the square brackets are closed, use “()” to enclose the Link. 
 
