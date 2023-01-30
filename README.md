@@ -44,6 +44,11 @@
 2. Busy (generate tasks to be completed in small gaps of rest)
 3. Operates on both laptop and phone
 
+**Created a Google Form to record entries**
+
+1. Follow tutorial here: https://howtogapps.com/generate-invoices-using-google-form-and-sheets/
+2. Form's link is here: https://forms.gle/SfuEr5kbPeRRFrDM7
+
 ## Blog Series
 
 ### [1. Learn to publish Notion Pages on your website No-Code](/blog/blog1/content.md)
