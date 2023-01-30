@@ -49,7 +49,8 @@
 **Created a Google Form to record entries**
 
 1. Follow tutorial here: https://howtogapps.com/generate-invoices-using-google-form-and-sheets/
-2. Form's [link](https://forms.gle/SfuEr5kbPeRRFrDM7)
+2. Form's [Mobile link](https://forms.gle/7nBqXiHWdrB7XWjQA)
+3. Form's [PC Link](https://forms.gle/wN9zXKZ8kRwAwcgk9)
 
 ## Blog Series
 
