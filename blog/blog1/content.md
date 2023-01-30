@@ -66,7 +66,7 @@ Let the option be Markdown & CSV and click Export. Next, save this zipped file t
 
 Open the [README.md](http://README.md) file on VSCode and type the text as shown below:
 
-![Untitled](asset/vscodecommit.png)
+![Untitled](assets/vscodecommit.png)
 
 The square brackets are important because only then can you add a link. After the square brackets are closed, use “()” to enclose the Link. 
 
