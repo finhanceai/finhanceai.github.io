@@ -1,3 +1,5 @@
+![Untitled](/piper-hat.png)
+
 # Finhance Development Blueprint
 
 ## User Roles
