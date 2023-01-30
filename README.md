@@ -6,4 +6,4 @@
 
 ### Code inspiration from [Tomcam](https://tomcam.github.io/least-github-pages/markdown-links.html)
 
-### DPaxos [Blog](/blog/DPaxos%20eeeaa86519354b3fa6899c3c749e445c.md)
+### DPaxos [Blog](/blog/DPaxos.md)
