@@ -4,29 +4,47 @@
 
 ## User Roles
 
-1. Ground Staff
-2. Accounts
-3. Warehouse
-4. Analysis & Strategy
+1. Store Staff
+2. Warehouse Incharge
+3. Accounts
+4. Management
 
-**Ground Staff Use-cases**
+**Store Staff Use-cases**
 
 1. Issue transfer of goods statements
-    1. Internal (from warehouse A to B)
-    2. External (incoming stock or outgoing stock from third party)
-2. Issue an invoice
+    1. Internal (from warehouse A to B) (STC)
+    2. External (incoming stock or outgoing stock from third party) (GRN, GP)
 
-**Ground Staff User Profiling**
+**Store Staff User Profiling**
 
-1. Low-literate
-2. Not very tech-savvy
-3. No incentive to fill the form correctly → low attention to detail → frequent errors
-4. Small screen android devices which are always-online during office hours
+1. Stateless
+2. Low-literate
+3. Not very tech-savvy
+4. No incentive to fill the form correctly → low attention to detail → frequent errors 
+    1. Solution:
+        1. View (only) last submission (1-time edit authority)
+5. Small screen android devices which are **always-online** during office hours → (v2)
+    1. For v1, assume PC or laptop
+6. No modification rights
+7. Single warehouse assigned
+
+**Warehouse Incharge Use-cases / User Profiling**
+
+1. Verify entries through physical bills (Challan, Invoice, Cashbook Number), have to input either Challan or Invoice mandated
+2. Inputs a new field price (not mandatory)
+3. Scope of error → low (put some sanity checks such as Total amount autofilled)
+4. PC or laptop
+5. Stateful (Viewing permission - History of goods from the concerned warehouse not the price)
+6. Edit rights: Same date entries only, Neither back-date nor future date
+7. Create/Modify/Delete Product
+8. New Category
 
 **Accounts Staff Use-cases**
 
 1. Responsible for maintaining a separate account for every third-party
     1. For every invoice the Ground Staff issues, the account adds it to the account of the concerned third-party.
+2. Fill all the prices in the invoice (mandatory), If Challan not mandatory
+3. Sanity checks (Goods-level check such as Negative stock not allowed (Warning or Disable), mapping from invoice to goods flow statement)
 
 **Accounts Staff User Profiling**
 
@@ -36,7 +54,7 @@
 
 **Analysis & Strategy Use-cases**
 
-1. Reconcile invoices with transfer of goods statement
+1. Verify invoices with transfer of goods statement
     1. For every invoice and their corresponding transfer of goods statement, check for consistency
 2. Analyze the flow of goods and cash trend to generation actionable insights.
 
@@ -45,6 +63,20 @@
 1. Literate
 2. Busy (generate tasks to be completed in small gaps of rest)
 3. Operates on both laptop and phone
+
+**************************Form Features**************************
+
+- Narrow search drop-down
+- Statefulness
+- Show form summary before submitting
+- Design a form primarily for PC
+- Login extensible
+- Form view role-based
+- Form field validations (client-side, server-side)
+- 
+
+[react-google-forms-hooks](https://www.npmjs.com/package/react-google-forms-hooks)
+
 
 **Created a Google Form to record entries**
 
