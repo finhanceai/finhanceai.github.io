@@ -89,3 +89,13 @@
 ### [1. Learn to publish Notion Pages on your website No-Code](/blog/blog1/content.md)
 
 ### 2. Use-case Driven Engineering (Coming Soon)
+
+
+## Important Links
+
+### Hacker News article on Ledger Engineering: https://news.ycombinator.com/item?id=36506782
+### AWS QLDB: https://aws.amazon.com/blogs/industries/building-a-core-banking-system-with-amazon-quantum-ledger-database/
+### Ledger Engineering Mistakes: https://www.andriosrobert.com/p/things-i-wish-i-knew-before-building
+### Tutorial on Engineering practices: https://blog.journalize.io/posts/an-elegant-db-schema-for-double-entry-accounting/
+### TigerBeetleDB: https://tigerbeetle.com
+### Twisp: https://www.twisp.com
